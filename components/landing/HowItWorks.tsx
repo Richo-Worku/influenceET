@@ -80,7 +80,7 @@ export default function HowItWorks() {
             </p>
 
             <a
-              href="/register?role=influencer"
+              href="/register/influencer"
               className="mt-5 inline-flex font-semibold text-orange-500 hover:text-orange-600"
             >
               Join as an influencer →
@@ -100,7 +100,7 @@ export default function HowItWorks() {
             </p>
 
             <a
-              href="/register?role=brand"
+              href="/register/company"
               className="mt-5 inline-flex font-semibold text-orange-500 hover:text-orange-600"
             >
               Join as a brand →
