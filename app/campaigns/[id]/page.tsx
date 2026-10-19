@@ -6,9 +6,13 @@ type PageProps = {
   params: Promise<{ id: string }>;
 };
 
-export default async function CampaignDetailsPage({ params }: PageProps) {
+async function CampaignDetailsContent({ params }: PageProps) {
   const { id } = await params;
 
+  return <CampaignDetailsClient id={id} />;
+}
+
+export default function CampaignDetailsPage({ params }: PageProps) {
   return (
     <Suspense
       fallback={
@@ -19,7 +23,7 @@ export default async function CampaignDetailsPage({ params }: PageProps) {
         </main>
       }
     >
-      <CampaignDetailsClient id={id} />
+      <CampaignDetailsContent params={params} />
     </Suspense>
   );
 }
