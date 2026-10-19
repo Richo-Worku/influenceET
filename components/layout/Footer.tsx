@@ -51,7 +51,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-3 text-sm text-gray-600">
               <li>
                 <a
-                  href="/register?role=influencer"
+                  href="/register/influencer"
                   className="hover:text-orange-500"
                 >
                   Join as an influencer
@@ -59,7 +59,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="/register?role=brand"
+                  href="/register/company"
                   className="hover:text-orange-500"
                 >
                   Join as a brand

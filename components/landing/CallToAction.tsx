@@ -22,14 +22,14 @@ export default function CallToAction() {
 
           <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
             <a
-              href="/register?role=influencer"
+              href="/register/influencer"
               className="rounded-xl bg-white px-7 py-4 font-bold text-orange-600 transition hover:bg-orange-50"
             >
               Join as an influencer →
             </a>
 
             <a
-              href="/register?role=brand"
+              href="/register/company"
               className="rounded-xl border border-white/50 px-7 py-4 font-bold text-white transition hover:bg-white/10"
             >
               I'm a brand
